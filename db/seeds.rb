@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+BonnieTylerSongObject.create!(bonnie_tyler_song_object_artist_full_name: "Bonnie Tyler", bonnie_tyler_song_object_song_title: "Total Eclipse of the Heart")
+BonnieTylerSongObject.create!(bonnie_tyler_song_object_artist_full_name: "Bonnie Tyler", bonnie_tyler_song_object_song_title: "Total Eclipse of the Heart Remix")

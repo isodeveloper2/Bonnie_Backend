@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20160129181442) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "bonnie_tyler_song_object", force: :cascade do |t|
+  create_table "bonnie_tyler_song_objects", force: :cascade do |t|
     t.string "bonnie_tyler_song_object_artist_full_name", null: false
     t.string "bonnie_tyler_song_object_song_title",       null: false
   end
