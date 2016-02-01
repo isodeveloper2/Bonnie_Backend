@@ -8,7 +8,7 @@ class API::V1::BonnieTylerSongObjectsController < ApplicationController
   end
 
   def create
-    respond_with BonnieTylerSongObject.create(bonnie_tyler_song_object_artist_full_name: params[:artist], bonnie_tyler_song_object_song_title: params[:title])
+    respond_with BonnieTylerSongObject.create(access_token: params[:access_token], city: params[:city], created_at: Time.now, phone: params[:phone], region: params[:region], updated_at: Time.now)
   end
 
 end
